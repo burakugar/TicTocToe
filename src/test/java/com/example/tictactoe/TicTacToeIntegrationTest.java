@@ -33,10 +33,10 @@ class TicTacToeIntegrationTest {
 
     @BeforeEach
     public void setUp() throws InterruptedException {
-        contextX = new SpringApplicationBuilder(TikTakToeApplication.class)
+        contextX = new SpringApplicationBuilder(TicTacToeApplication.class)
             .properties("server.port=8082", "other.instance.port=8080", "player.assignment=X")
             .run();
-        contextO = new SpringApplicationBuilder(TikTakToeApplication.class)
+        contextO = new SpringApplicationBuilder(TicTacToeApplication.class)
             .properties("server.port=8080", "other.instance.port=8082", "player.assignment=O")
             .run();
 
