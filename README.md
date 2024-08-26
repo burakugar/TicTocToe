@@ -136,7 +136,7 @@ POST /api/game/move?cell=TOP_LEFT
 **Usage:**
 
 ```bash
-**Endpoint:** `POST /api/game/reset`
+`POST /api/game/reset`
 ```
 
 **Response Statuses:**
